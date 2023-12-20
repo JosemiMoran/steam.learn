@@ -1,0 +1,6 @@
+{
+  "databaseURL": "https://steam-learn-db-q51rvp.eu-west-1.xata.sh/db/steamlearndb",
+  "codegen": {
+    "output": "db/xata.ts"
+  }
+}
