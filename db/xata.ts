@@ -7,7 +7,16 @@ import type {
 } from "@xata.io/client";
 
 const tables = [
-  { name: "user", columns: [{ name: "name", type: "text" }] },
+  {
+    name: "user",
+    columns: [
+      { name: "firstname", type: "text" },
+      { name: "lastname", type: "text" },
+      { name: "password", type: "string" },
+      { name: "email", type: "email", unique: true },
+      { name: "username", type: "string", unique: true },
+    ],
+  },
 ] as const;
 
 export type SchemaTables = typeof tables;
@@ -24,7 +33,7 @@ const DatabaseClient = buildClient();
 
 const defaultOptions = {
   databaseURL:
-    "https://Josemi-Mor-n-s-workspace-q51rvp.eu-west-1.xata.sh/db/steamlearndb",
+    "https://steam-learn-db-q51rvp.eu-west-1.xata.sh/db/steamlearndb",
 };
 
 export class XataClient extends DatabaseClient<DatabaseSchema> {
