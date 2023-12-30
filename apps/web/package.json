@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "bunx --bun astro dev",
     "start": "bunx --bun astro dev",
-    "build": "bunx --bun astro build",
+    "build": "astro build",
     "serve": "bun --cwd=./build/ start",
     "preview": "bunx --bun astro preview",
     "astro": "astro"
