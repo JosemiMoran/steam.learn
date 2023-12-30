@@ -1,13 +1,11 @@
 ---
 import { hc } from "hono/client";
-import type { AppType } from "../../../api/src/index";
-
-const client = hc<AppType>('/');
-const res = await client.api.users.$get();
+import type { AppType } from "@steam.learn/api/src/index";
+import {apiUrl} from "../services/config.js"
+const client = hc<AppType>(apiUrl);
+const res = await client.users.$get();
 const users = await res.json()
-
 ---
-
 <section class='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5'>
 	{
 		users.map((user: { id: any; username?: any; }) => {

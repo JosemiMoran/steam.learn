@@ -1,13 +1,18 @@
 {
-  "name": "steam.learn",
+  "name": "@steam.learn/root",
   "version": "0.0.1",
   "description": "steam.learn project",
-  "main": "index.js",
-  "type": "module",
+  "private": true,
+  "workspaces": ["apps/*", "packages/*"],
   "scripts": {
-    "astro": "astro",
-    "build": "astro build && bun run api/index.ts",
-    "dev": "bunx --bun astro dev && bun run --hot api/src/index.ts"
+    "build:api": "turbo run build --filter=@steam.learn/api",
+    "build:web": "turbo run build --filter=@steam.learn/astro",
+    "build": "turbo run build",
+    "dev": "turbo dev --parallel --filter={@steam.learn/astro,@steam.learn/api}",
+		"lint": "turbo run lint",
+		"test": "turbo run test",
+		"check": "turbo run check",
+    "serve": "turbo run serve --parallel"
   },
   "dependencies": {
     "@astrojs/check": "^0.3.3",
@@ -26,9 +31,14 @@
     "hono": "^3.11.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "turbo": "^1.11.2",
     "typescript": "^5.3.3"
   },
   "devDependencies": {
     "bun-types": "^1.0.17"
+  },
+  "packageManager": "bun@1.0.0",
+  "engines": {
+    "bun": ">1.0.0"
   }
 }
