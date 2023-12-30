@@ -8,6 +8,9 @@ hono.use("*", prettyJSON());
 const route = hono.route('/users',users)
 
 console.log(hono.all)
-export const app = handle(hono);
+export default {
+    port: 3000,
+    fetch: hono.fetch,
+  };
 export type AppType = typeof route;
 

@@ -2,5 +2,8 @@
     "editor.fontFamily": "'Cascadia Code'",
     "editor.codeLensFontFamily": "'Cascadia Code'",
     "editor.fontLigatures": true,
-    "editor.inlayHints.fontFamily": "'Cascadia Code'"
+    "editor.inlayHints.fontFamily": "'Cascadia Code'",
+    "cSpell.words": [
+        "outdir"
+    ]
 }

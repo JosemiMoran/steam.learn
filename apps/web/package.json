@@ -1,18 +1,24 @@
 {
-  "name": "@example/basics",
-  "type": "module",
+  "name": "@steam.learn/astro",
   "version": "0.0.1",
   "private": true,
   "scripts": {
     "dev": "bunx --bun astro dev",
     "start": "bunx --bun astro dev",
     "build": "bunx --bun astro build",
+    "serve": "bun --cwd=./build/ start",
     "preview": "bunx --bun astro preview",
     "astro": "astro"
   },
   "dependencies": {
     "astro": "^4.0.7",
     "astro-hono": "^0.0.1",
-    "hono": "^3.11.11"
-  }
+    "hono": "^3.11.11",
+    "@steam.learn/api": "*",
+    "@steam.learn/db": "*"
+  },
+  "packageManager": "bun@1.0.0",
+  "engines": {
+		"bun": "^1.0.0"
+	}
 }

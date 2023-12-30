@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+      "strictNullChecks": true,
+      "noUncheckedIndexedAccess": true,
+      "paths": {
+        "@steam.learn/api/*": ["./packages/api/*"],
+        "@steam.learn/db/*": ["./packages/db/*"],
+      }
+    },
+  }
+  
