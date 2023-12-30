@@ -14,8 +14,7 @@
     "astro": "^4.0.7",
     "astro-hono": "^0.0.1",
     "hono": "^3.11.11",
-    "@steam.learn/api": "*",
-    "@steam.learn/db": "*"
+    "@steam.learn/api": "workspace:*"
   },
   "packageManager": "bun@1.0.0",
   "engines": {
