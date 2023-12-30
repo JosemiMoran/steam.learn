@@ -9,9 +9,9 @@
     "build:web": "turbo run build --filter=@steam.learn/astro",
     "build": "turbo run build",
     "dev": "turbo dev --parallel --filter={@steam.learn/astro,@steam.learn/api}",
-		"lint": "turbo run lint",
-		"test": "turbo run test",
-		"check": "turbo run check",
+    "lint": "turbo run lint",
+    "test": "turbo run test",
+    "check": "turbo run check",
     "serve": "turbo run serve --parallel",
     "clean": "git clean -xdf node_modules",
     "clean:workspaces": "turbo clean"
@@ -19,7 +19,7 @@
   "dependencies": {
     "@astrojs/check": "^0.3.3",
     "@astrojs/react": "^3.0.7",
-    "@astrojs/vercel": "^6.1.0",
+    "@astrojs/vercel": "^6.1.1",
     "@clerk/backend": "^0.36.0",
     "@clerk/clerk-react": "^4.30.0",
     "@hono/clerk-auth": "^1.0.0",
