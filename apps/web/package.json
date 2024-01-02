@@ -1,12 +1,11 @@
 {
   "name": "@steam.learn/astro",
   "version": "0.0.1",
-  "main": "src/pages/index.astro",
   "private": true,
   "scripts": {
     "dev": "bunx --bun astro dev",
     "start": "bunx --bun astro dev",
-    "build": "astro build",
+    "build": "bun --bun astro build",
     "preview": "bunx --bun astro preview",
     "astro": "astro"
   },
