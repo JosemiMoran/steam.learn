@@ -17,9 +17,6 @@
     "clean:workspaces": "turbo clean"
   },
   "dependencies": {
-    "@astrojs/check": "^0.3.3",
-    "@astrojs/react": "^3.0.7",
-    "@astrojs/vercel": "^6.1.1",
     "@clerk/backend": "^0.36.0",
     "@clerk/clerk-react": "^4.30.0",
     "@hono/clerk-auth": "^1.0.0",
@@ -27,12 +24,10 @@
     "@hono/trpc-server": "^0.1.0",
     "@types/react": "^18.2.45",
     "@types/react-dom": "^18.2.18",
-    "@vercel/speed-insights": "^1.0.2",
     "@xata.io/client": "^0.28.3",
     "astro": "^4.0.6",
     "hono": "^3.11.6",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
     "turbo": "^1.11.2",
     "typescript": "^5.3.3"
   },
