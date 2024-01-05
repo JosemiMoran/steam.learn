@@ -17,19 +17,18 @@
     "clean:workspaces": "turbo clean"
   },
   "dependencies": {
-    "@astrojs/vercel": "latest",
+    "@astrojs/netlify": "^4.1.0",
     "@hono/trpc-server": "latest",
     "@types/react": "latest",
     "@types/react-dom": "latest",
     "@xata.io/client": "latest",
     "astro": "latest",
     "hono": "latest",
-    "node": "20.0.0",
+    "netlify": "^13.1.11",
     "react": "latest",
     "sharp": "latest",
     "turbo": "latest",
-    "typescript": "latest",
-    "vercel": "latest"
+    "typescript": "latest"
   },
   "devDependencies": {
     "bun-types": "latest"
