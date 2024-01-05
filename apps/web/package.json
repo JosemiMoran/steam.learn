@@ -15,7 +15,6 @@
     "@astrojs/vercel": "latest",
     "@steam.learn/api": "workspace:*",
     "astro": "latest",
-    "estree-walker": "latest",
     "hono": "latest",
     "react": "latest",
     "react-dom": "latest"
