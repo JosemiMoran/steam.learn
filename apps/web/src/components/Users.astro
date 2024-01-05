@@ -2,7 +2,7 @@
 import { hc } from "hono/client";
 import type { AppType } from "@steam.learn/api/src/index";
 import {apiUrl} from "../services/config.js"
-const client = hc<AppType>(apiUrl);
+const client: any = hc<AppType>(apiUrl);
 const res = await client.users.$get();
 console.log(res)
 const users = await res.json()
