@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "bunx --bun astro dev",
-    "start": "bunx --bun astro dev",
+    "start": "bun --bun astro dev",
     "build": "bun --bun astro build",
     "preview": "bun --bun astro preview",
     "astro": "astro"
@@ -19,8 +19,5 @@
     "react-dom": "^18.2.0",
     "@steam.learn/api": "workspace:*"
   },
-  "packageManager": "bun@1.0.0",
-  "engines": {
-		"bun": "^1.0.0"
-	}
+  "packageManager": "bun@1.0.0"
 }
