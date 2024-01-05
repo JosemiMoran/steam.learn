@@ -4,13 +4,13 @@
   "private": true,
   "scripts": {
     "dev": "bunx --bun astro dev",
-    "start": "bunx --bun astro dev",
+    "start": "bun --bun astro dev",
     "build": "bun --bun astro build",
-    "preview": "bunx --bun astro preview",
+    "preview": "bun --bun astro preview",
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^4.0.7",
+    "astro": "^4.0.6",
     "@astrojs/vercel": "^6.1.2",
     "hono": "^3.11.11",
     "react": "18.2.0",
@@ -19,8 +19,5 @@
     "react-dom": "^18.2.0",
     "@steam.learn/api": "workspace:*"
   },
-  "packageManager": "bun@1.0.0",
-  "engines": {
-		"bun": "^1.0.0"
-	}
+  "packageManager": "bun@1.0.0"
 }

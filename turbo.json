@@ -4,8 +4,8 @@
   "globalDependencies": ["**/.env.*local"],
   "pipeline": {
     "build": {
-        "dependsOn": ["^clean", "^build", "clean"],
-        "outputs": ["build/**", "dist/**", "lib/**", ".contentlayer/**"]
+        "dependsOn": ["^build"],
+        "outputs": ["build/**", "dist/**", "lib/**"]
     },
     "dev": {
       "cache": false,
@@ -24,6 +24,10 @@
     },
     "//#clean": {
       "cache": false
-    }
+    },
+    "serve": {
+			"dependsOn": ["build"],
+			"outputs": []
+		}
   }
 }
