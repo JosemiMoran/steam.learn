@@ -24,7 +24,7 @@
     "@xata.io/client": "latest",
     "astro": "latest",
     "hono": "latest",
-    "node": "18.14.1",
+    "node": "20.0.0",
     "react": "latest",
     "sharp": "latest",
     "turbo": "latest",
