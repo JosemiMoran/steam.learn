@@ -10,14 +10,15 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^4.0.6",
-    "@astrojs/vercel": "^6.1.2",
-    "hono": "^3.11.11",
-    "react": "18.2.0",
-    "@astrojs/check": "^0.3.3",
-    "@astrojs/react": "^3.0.7",
-    "react-dom": "^18.2.0",
-    "@steam.learn/api": "workspace:*"
+    "@astrojs/check": "latest",
+    "@astrojs/react": "latest",
+    "@astrojs/vercel": "latest",
+    "@steam.learn/api": "workspace:*",
+    "astro": "latest",
+    "estree-walker": "latest",
+    "hono": "latest",
+    "react": "latest",
+    "react-dom": "latest"
   },
-  "packageManager": "bun@1.0.0"
+  "packageManager": "bun@1.0.21"
 }
