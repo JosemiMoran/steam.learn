@@ -1,15 +1,10 @@
 import { defineConfig } from 'astro/config';
 import react from "@astrojs/react";
-import vercel from '@astrojs/vercel/serverless';
+import netlify from '@astrojs/netlify';
 
-console.log('siteUrl', siteUrl)
-  export default defineConfig({
+export default defineConfig({
     integrations: [react()], 
     output: 'server',
     root: "./",
-    adapter: vercel({
-      speedInsights: {
-        enabled: true,
-      },
-    }) 
+    adapter: netlify(),
   });
