@@ -1,6 +1,0 @@
-{
-	"runtime": "nodejs20.x",
-	"handler": "apps/web/dist/entry.mjs",
-	"launcherType": "Nodejs",
-	"supportsResponseStreaming": true
-}
