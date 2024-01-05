@@ -5,8 +5,8 @@
   "scripts": {
     "dev": "bunx --bun astro dev",
     "start": "bun --bun astro dev",
-    "build": "bun --bun astro build",
-    "preview": "bun --bun astro preview",
+    "build": "astro build",
+    "preview": "astro preview",
     "astro": "astro"
   },
   "dependencies": {
