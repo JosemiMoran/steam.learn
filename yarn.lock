@@ -837,10 +837,6 @@
 "@steam.learn/api@packages/api":
   version "workspace:packages/api"
   resolved "workspace:packages/api"
-  devDependencies:
-    bun-types "^1.0.7"
-  dependencies:
-    hono "^3.11.8"
 
 "@steam.learn/astro@apps/web":
   version "workspace:apps/web"
@@ -1653,7 +1649,7 @@ buffer-crc32@~0.2.3:
   resolved "https://registry.npmjs.org/buffer-crc32/-/buffer-crc32-0.2.13.tgz"
   integrity sha512-VO9Ht/+p3SN7SKWqcrgEzjGbRSJYTx+Q1pTQC0wrWqHx0vpJraQ6GtHx8tvcg1rlK1byhU5gccxgOgj7B0TDkQ==
 
-bun-types@^1.0.21, bun-types@^1.0.7:
+bun-types@^1.0.21:
   version "1.0.21"
   resolved "https://registry.npmjs.org/bun-types/-/bun-types-1.0.21.tgz"
   integrity sha512-Ugagjf+XZUXDvxDRa3EnhLeMzm2g8ZYFleBF55Ac3GZSzPqdMLAdK9kvZB6M1H4nAFvrEHdV2PHqkzIoNs+3wQ==
@@ -2642,7 +2638,7 @@ hastscript@^8.0.0:
     property-information "^6.0.0"
     space-separated-tokens "^2.0.0"
 
-hono@3.*, hono@^3.11.8, hono@latest:
+hono@3.*, hono@latest:
   version "3.12.0"
   resolved "https://registry.npmjs.org/hono/-/hono-3.12.0.tgz"
   integrity sha512-UPEtZuLY7Wo7g0mqKWSOjLFdT8t7wJ60IYEcxKl3AQNU4u+R2QqU2fJMPmSu24C+/ag20Z8mOTQOErZzK4DMvA==
