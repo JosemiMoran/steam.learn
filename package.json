@@ -28,7 +28,8 @@
     "react": "latest",
     "sharp": "latest",
     "turbo": "latest",
-    "typescript": "latest"
+    "typescript": "latest",
+    "vercel": "latest"
   },
   "devDependencies": {
     "bun-types": "^1.0.21"

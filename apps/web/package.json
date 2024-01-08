@@ -16,10 +16,11 @@
     "@astrojs/vercel": "^6.1.3",
     "@steam.learn/api": "workspace:*",
     "astro": "latest",
-    "bun": "^1.0.21",
+    "bun": "latest",
     "hono": "latest",
     "react": "latest",
-    "react-dom": "latest"
+    "react-dom": "latest",
+    "vercel": "latest"
   },
   "devDependencies": {
     "bun-types": "^1.0.21"
