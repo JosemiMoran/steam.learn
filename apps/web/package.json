@@ -13,7 +13,7 @@
     "@astrojs/check": "latest",
     "@astrojs/netlify": "latest",
     "@astrojs/react": "latest",
-    "@astrojs/vercel": "^6.1.3",
+    "@astrojs/vercel": "latest",
     "@steam.learn/api": "workspace:*",
     "astro": "latest",
     "hono": "latest",
