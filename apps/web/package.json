@@ -1,6 +1,9 @@
 {
   "name": "@steam.learn/astro",
   "version": "0.0.1",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
   "scripts": {
     "dev": "bunx --bun astro dev",
     "start": "bun --bun astro dev",
@@ -22,6 +25,7 @@
     "vercel": "latest"
   },
   "devDependencies": {
+    "bun": "^1.0.21",
     "bun-types": "^1.0.21"
   },
   "engines": {
