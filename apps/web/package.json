@@ -1,7 +1,6 @@
 {
   "name": "@steam.learn/astro",
   "version": "0.0.1",
-  "private": true,
   "scripts": {
     "dev": "bunx --bun astro dev",
     "start": "bun --bun astro dev",
@@ -25,7 +24,6 @@
   "devDependencies": {
     "bun-types": "^1.0.21"
   },
-  "packageManager": "bun@1.0.21",
   "engines": {
     "node": "20.0"
   }
