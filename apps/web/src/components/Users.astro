@@ -14,13 +14,12 @@ const users = await res.json()
 			console.log(id, username)
 			return (
 				<article class={`overflow-hidden col-span-1 rounded`}>
-					<a
+					<p
 						class='flex gap-x-4 p-4 h-full items-center justify-center relative'
-						href={`/users/${id}`}
 						title={`Ver user ${username}`}
 					>
 					{username}
-					</a>
+					</>
 				</article>
 			)
 		})
