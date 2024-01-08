@@ -9,24 +9,24 @@
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "postinstall": "bun upgrade --canary"
   },
   "dependencies": {
+    "astro": "latest",
     "@astrojs/check": "latest",
-    "@astrojs/netlify": "latest",
     "@astrojs/react": "latest",
     "@astrojs/vercel": "latest",
-    "@steam.learn/api": "workspace:*",
-    "astro": "latest",
     "hono": "latest",
     "node": "20.0.0",
     "react": "latest",
     "react-dom": "latest",
-    "vercel": "latest"
+    "vercel": "latest",
+    "@steam.learn/api": "workspace:*"
   },
   "devDependencies": {
-    "bun": "^1.0.21",
-    "bun-types": "^1.0.21"
+    "bun": "1.0.15",
+    "bun-types": "1.0.15"
   },
   "engines": {
     "node": "20.0"
