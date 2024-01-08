@@ -28,6 +28,6 @@
   },
   "packageManager": "bun@1.0.21",
   "engines": {
-    "node": "node@18.14.1"
+    "node": "18.14.1"
   }
 }
