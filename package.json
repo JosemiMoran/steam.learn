@@ -23,6 +23,7 @@
     "@types/react-dom": "latest",
     "@xata.io/client": "latest",
     "astro": "latest",
+    "estree-walker": "2.0.2",
     "hono": "latest",
     "react": "latest",
     "sharp": "latest",
