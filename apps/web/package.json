@@ -19,8 +19,7 @@
     "node": "20.0.0",
     "react": "latest",
     "react-dom": "latest",
-    "vercel": "latest",
-    "bun": "latest"
+    "vercel": "latest"
   },
   "devDependencies": {
     "bun-types": "^1.0.21"
