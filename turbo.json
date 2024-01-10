@@ -4,7 +4,7 @@
   "globalDependencies": ["**/.env.*local"],
   "pipeline": {
     "build": {
-        "outputs": ["build/**", "dist/**", "lib/**"]
+      "outputs": ["build/**", "dist/**", "lib/**"]
     },
     "dev": {
       "cache": false,

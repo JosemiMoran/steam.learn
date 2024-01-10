@@ -1,8 +1,6 @@
 {
   "name": "@steam.learn/astro",
   "version": "0.0.1",
-  "module": "index.ts",
-  "type": "module",
   "private": true,
   "scripts": {
     "dev": "astro dev",
@@ -13,20 +11,20 @@
     "postinstall": "bun upgrade --canary"
   },
   "dependencies": {
-    "astro": "latest",
     "@astrojs/check": "latest",
     "@astrojs/react": "latest",
     "@astrojs/vercel": "latest",
+    "@steam.learn/api": "workspace:*",
+    "astro": "latest",
     "hono": "latest",
     "node": "20.0.0",
     "react": "latest",
     "react-dom": "latest",
-    "vercel": "latest",
-    "@steam.learn/api": "workspace:*"
+    "vercel": "latest"
   },
   "devDependencies": {
-    "bun": "1.0.15",
-    "bun-types": "1.0.15"
+    "bun": "1.0.22",
+    "bun-types": "1.0.22"
   },
   "engines": {
     "node": "20.0"

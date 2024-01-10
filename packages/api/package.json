@@ -1,5 +1,6 @@
 {
   "name":"@steam.learn/api",
+  "main": "src/index.ts",
   "version": "0.0.1",
   "scripts": {
     "dev": "bun run --hot src/index.ts",
@@ -8,6 +9,12 @@
 		"test": "bun test",
 		"check": "tsc -p ./tsconfig.json --noEmit",
     "clean": "rm -rf .turbo node_modules"
+  },
+  "dependencies": {
+    "hono": "latest"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
   },
   "engines": {
 		"bun": "1.0"

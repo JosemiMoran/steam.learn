@@ -4,7 +4,7 @@ import vercelServerless from '@astrojs/vercel/serverless'
 
 export default defineConfig({
     integrations: [react()], 
-    output: 'server',
     root: "./",
+    output: 'server',
     adapter: vercelServerless(),
   });
