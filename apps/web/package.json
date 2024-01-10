@@ -7,8 +7,7 @@
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro",
-    "preinstall": "bun upgrade"
+    "astro": "astro"
   },
   "dependencies": {
     "@astrojs/check": "latest",
