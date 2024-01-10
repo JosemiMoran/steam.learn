@@ -5,7 +5,6 @@
   "private": true,
   "workspaces": ["apps/*", "packages/*"],
   "scripts": {
-    "postinstall": "bun upgrade --canary",
     "build:api": "turbo run build --filter=@steam.learn/api",
     "build:web": "turbo run build --filter=@steam.learn/astro",
     "build": "turbo run build",
