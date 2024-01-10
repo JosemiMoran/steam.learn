@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "astro dev",
-    "start": "node dist/server/entry.mjs",
-    "build": "astro build",
+    "start": "bun dist/server/entry.mjs",
+    "build": "astro build && bun dist/server/entry.mjs",
     "preview": "astro preview",
     "astro": "astro"
   },
