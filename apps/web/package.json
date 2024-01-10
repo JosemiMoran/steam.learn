@@ -10,20 +10,11 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/check": "latest",
-    "@astrojs/react": "latest",
-    "@astrojs/vercel": "latest",
-    "@steam.learn/api": "workspace:*",
-    "astro": "latest",
-    "hono": "latest",
-    "node": "18.18.0",
-    "react": "latest",
-    "react-dom": "latest",
-    "vercel": "latest"
+    "@steam.learn/api": "workspace:*"
   },
   "devDependencies": {
-    "bun": "1.0.22",
-    "bun-types": "1.0.22"
+    "bun": "latest",
+    "bun-types": "latest"
   },
   "engines": {
     "node": "18.18"

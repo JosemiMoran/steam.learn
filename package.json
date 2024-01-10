@@ -18,23 +18,27 @@
     "clean:workspaces": "turbo clean"
   },
   "dependencies": {
+    "@astrojs/check": "latest",
+    "@astrojs/react": "latest",
     "@astrojs/node": "^7.0.4",
     "@astrojs/vercel": "latest",
     "@hono/trpc-server": "latest",
     "@types/react": "latest",
     "@types/react-dom": "latest",
     "@xata.io/client": "latest",
-    "astro": "latest",
     "estree-walker": "2.0.2",
-    "hono": "latest",
-    "react": "latest",
     "sharp": "latest",
     "turbo": "latest",
     "typescript": "latest",
+    "astro": "latest",
+    "hono": "latest",
+    "node": "18.18.0",
+    "react": "latest",
+    "react-dom": "latest",
     "vercel": "latest"
   },
   "devDependencies": {
-    "bun-types": "1.0.22"
-  },
-  "packageManager": "bun@1.0.22"
+    "bun":"latest",
+    "bun-types": "latest"
+  }
 }
