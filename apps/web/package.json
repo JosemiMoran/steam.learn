@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "astro dev",
     "start": "bun dist/server/entry.mjs",
-    "build": "astro build && bun dist/server/entry.mjs",
+    "build": "bun --bun astro build && bun --bun dist/server/entry.mjs",
     "preview": "astro preview",
     "astro": "astro"
   },
