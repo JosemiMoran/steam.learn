@@ -9,5 +9,6 @@
       "@steam.learn/db/*": ["../../packages/db/*"]
     },
   },
-    "exclude": ["node_modules"],
+  "extends": "astro/tsconfigs/strict",
+  "exclude": ["node_modules"],
 }
