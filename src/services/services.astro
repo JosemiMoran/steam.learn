@@ -1,0 +1,6 @@
+---
+    import { hc } from 'hono/client';
+    import type { RouteType} from "../pages/api/[...path]";
+    console.log("Astro.url.origin", Astro.url.origin);
+	const client: any = hc<RouteType>(Astro.url.origin + "/api/v1");
+---

@@ -13,16 +13,17 @@
   },
   "dependencies": {
     "@astrojs/check": "latest",
-    "@astrojs/node": "^7.0.4",
+    "@astrojs/node": "latest",
     "@astrojs/react": "latest",
     "@hono/trpc-server": "latest",
     "@types/react": "latest",
     "@types/react-dom": "latest",
     "@xata.io/client": "^0.28.3",
-    "astro": "^4.1.2",
+    "astro": "latest",
     "hono": "latest",
     "react": "latest",
     "react-dom": "latest",
+    "swr": "^2.2.4",
     "typescript": "latest"
   },
   "devDependencies": {

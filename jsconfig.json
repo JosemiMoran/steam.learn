@@ -4,10 +4,6 @@
     "jsxImportSource": "hono/jsx",
     "types": ["bun-types"],
     "baseUrl": ".",
-    "paths": {
-      "@components/*": ["src/components/*"],
-      "@layouts/*": ["src/layouts/*"],
-    }
   },
   "exclude": ["node_modules"],
 }
