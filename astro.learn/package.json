@@ -1,0 +1,32 @@
+{
+  "name": "steam.learn",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "bun run dist/server/entry.mjs",
+    "build": "bun --bun astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "build:preview": "bun --bun astro build && bun --bun astro preview"
+  },
+  "dependencies": {
+    "@astrojs/check": "latest",
+    "@astrojs/node": "^7.0.4",
+    "@astrojs/react": "latest",
+    "@hono/trpc-server": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "@xata.io/client": "^0.28.3",
+    "astro": "^4.1.2",
+    "hono": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "typescript": "latest"
+  },
+  "devDependencies": {
+    "bun": "latest",
+    "bun-types": "latest"
+  }
+}
