@@ -8,13 +8,14 @@ import type {
 
 const tables = [
   {
-    name: "user",
+    name: "USER",
     columns: [
       { name: "firstname", type: "text" },
       { name: "lastname", type: "text" },
       { name: "password", type: "string" },
       { name: "email", type: "email", unique: true },
       { name: "username", type: "string", unique: true },
+      { name: "role", type: "string", notNull: true, defaultValue: "student" },
     ],
   },
 ] as const;
@@ -22,11 +23,11 @@ const tables = [
 export type SchemaTables = typeof tables;
 export type InferredTypes = SchemaInference<SchemaTables>;
 
-export type User = InferredTypes["user"];
+export type User = InferredTypes["USER"];
 export type UserRecord = User & XataRecord;
 
 export type DatabaseSchema = {
-  user: UserRecord;
+  USER: UserRecord;
 };
 
 const DatabaseClient = buildClient();
