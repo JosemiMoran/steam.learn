@@ -1,0 +1,16 @@
+---
+//pages/users/
+const { student } = Astro.params;
+console.log('studentId ' + student);
+import { hc } from 'hono/client';
+import type { RouteType} from "../api/[...path]";
+const client: any = hc<RouteType>(Astro.url.origin + "/api/v1");	
+const res = await client.users[':id'].$get({
+    param:{
+        id: student
+    }
+});
+const { user } = await res.json();
+console.log(user);
+---
+<p>Hello! {user}</p>

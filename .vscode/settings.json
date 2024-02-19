@@ -4,6 +4,8 @@
     "editor.fontLigatures": true,
     "editor.inlayHints.fontFamily": "'Cascadia Code'",
     "cSpell.words": [
+        "honox",
         "outdir"
-    ]
+    ],
+    "discord.enabled": true
 }

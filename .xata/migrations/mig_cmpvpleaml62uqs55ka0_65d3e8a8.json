@@ -1,0 +1,16 @@
+{
+  "id": "mig_cmpvpleaml62uqs55ka0",
+  "parentID": "mig_cmpvokmc13j2eitag2vg",
+  "checksum": "1:65d3e8a88b7d0d62368de90de68444b95cd92f6e471ce49f7308ea9538f25f9f",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "profile_picture",
+          "type": "file[]"
+        },
+        "table": "user"
+      }
+    }
+  ]
+}

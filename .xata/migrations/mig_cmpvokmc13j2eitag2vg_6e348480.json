@@ -1,0 +1,18 @@
+{
+  "id": "mig_cmpvokmc13j2eitag2vg",
+  "parentID": "mig_clvvokedm0m1e2np6ohg",
+  "checksum": "1:6e3484808c4bff9cead3bea6bb80787935d632b57fff1831ff33462cb219114a",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "role",
+          "type": "string",
+          "notNull": true,
+          "defaultValue": "student"
+        },
+        "table": "user"
+      }
+    }
+  ]
+}
