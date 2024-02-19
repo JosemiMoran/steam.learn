@@ -4,17 +4,23 @@ import Card from '../components/Card.astro';
 ---
 
 <Layout title="Welcome to Astro.">
-	<h1>front: Astro & Vercel</h1>
-	<h1>back: Bun & Hono</h1>
 	<main>
-		<h1>Welcome to <span class="text-gradient">Astro</span></h1>
-		<ul role="list" class="link-card-grid">
-			<Card
-				href="./usersPage"
-				title="Documentation"
-				body="Testing hono api /v1/users"
-			/>
-		</ul>
+		<section>
+			<img src="#" alt="logo">
+			steam.learn
+		</section>
+		<section role="banner" id="landing-page-logo"></section>
+			<section role="gridcell" id="landing-page-login"></section>
+			<section><h1>Welcome to <span class="text-gradient">Astro</span></h1>
+				<ul role="list" class="link-card-grid">
+					<Card
+						href="./usersPage"
+						title="Documentation"
+						body="Testing hono api /v1/users"
+					/>
+				</ul></section>
+		<section>s</section>
+		<section>a</section>
 	</main>
 </Layout>
 
@@ -23,11 +29,20 @@ import Card from '../components/Card.astro';
 		margin: auto;
 		padding: 1.5rem;
 		max-width: 60ch;
+		display: grid;
 	}
 	h1 {
 		font-size: 3rem;
 		font-weight: 800;
 		margin: 0;
+	}
+	section{
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		flex-flow: row;
+		border: 1cap solid black;
+		border-radius: 5%;
 	}
 	.text-gradient {
 		background-image: var(--accent-gradient);

@@ -1,0 +1,16 @@
+{
+  "id": "mig_cmpvpogj0qctnr8j2ij0",
+  "parentID": "mig_cmpvpleaml62uqs55ka0",
+  "checksum": "1:80a645ae73c2c69f1f6a9d8f526189ebb78211147fec4e476458a46d8e0f3206",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "bio_description",
+          "type": "text"
+        },
+        "table": "user"
+      }
+    }
+  ]
+}
